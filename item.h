@@ -15,6 +15,8 @@ public:
   Item(std::string name, double price, int amount);
 
   void get_product_details();
+
+  friend class Client;
 };
 
 #endif
