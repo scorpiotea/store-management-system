@@ -18,6 +18,8 @@ public:
   void get_product_details();
 
   friend class Client;
+  friend class Owner;
+  friend void pay();
 };
 
 #endif

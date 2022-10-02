@@ -14,7 +14,8 @@ const std::string Item::get_name()
 
 void Item::get_product_details()
 {
-  std::cout << "Product name " << product_name << "\n"
+  std::cout << "\n"
+            << "Product name " << product_name << "\n"
             << "Price " << price << "\n"
             << std::boolalpha << "Is in stock " << is_in_stock << "\n"
             << "Amount in stock " << in_stock << std::endl;
