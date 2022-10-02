@@ -7,6 +7,11 @@ Item::Item(std::string name, double price, int amount)
   is_in_stock = true;
 }
 
+const std::string Item::get_name()
+{
+  return product_name;
+}
+
 void Item::get_product_details()
 {
   std::cout << "Product name " << product_name << "\n"

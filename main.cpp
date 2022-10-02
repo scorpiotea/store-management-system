@@ -12,13 +12,13 @@ int main()
 
   Client *one = new Client();
 
-  butter->get_product_details();
-  cheese->get_product_details();
+  // butter->get_product_details();
+  // cheese->get_product_details();
 
   one->put_in_basket(cheese, 2);
   one->put_in_basket(butter, 1);
 
-  // one->take_out_product(cheese, 2);
+  one->take_out_product(*butter, 1);
   one->put_in_basket(bread, 1);
 
   one->pay();

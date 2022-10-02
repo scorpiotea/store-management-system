@@ -14,6 +14,7 @@ public:
   Item() = default;
   Item(std::string name, double price, int amount);
 
+  const std::string get_name();
   void get_product_details();
 
   friend class Client;
