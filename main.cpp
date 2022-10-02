@@ -12,11 +12,10 @@ int main()
 
   Client *one = new Client();
   Client *two = new Client();
-  
+
   Owner *owner = new Owner();
 
   owner->add_product(bread, 3);
-  owner->change_price(bread, 3.10);
   owner->change_price(bread, 3.10);
 
   bread->get_product_details();
@@ -26,7 +25,6 @@ int main()
 
   one->put_in_basket(cheese, 21);
   two->put_in_basket(butter, 1);
-  one->put_in_basket(butter, 1);
 
   one->take_out_product(butter, 1);
   one->put_in_basket(bread, 1);
