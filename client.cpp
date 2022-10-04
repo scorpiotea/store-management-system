@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <iomanip>
 #include "client.h"
 #include "item.h"
 
@@ -88,7 +89,7 @@ void Client::pay(Owner *owner)
 
   for (int i{}; i < basket.size(); i++)
   {
-    std::cout << "\t" << basket[i].product_name << " " << amount_in_basket[i] << " " << basket[i].price * amount_in_basket[i] << std::endl;
+    std::cout << "\t" << basket[i].product_name << " " << std::setw(3) << amount_in_basket[i] << " " << std::setw(4) << basket[i].price * amount_in_basket[i] << std::endl;
 
     total += basket[i].price * amount_in_basket[i];
 
@@ -96,5 +97,5 @@ void Client::pay(Owner *owner)
     owner->profit += amount_in_basket[i] * basket[i].price;
   }
   std::cout << "\t"
-            << "- Total - " << total;
+            << "- Total - " << std::setw(3) << total;
 }
