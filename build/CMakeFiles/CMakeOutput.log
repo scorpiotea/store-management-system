@@ -7,7 +7,7 @@ Id flags:
 The output was:
 0
 MSBuild version 17.3.1+2badb37d1 for .NET Framework
-Kompilacja rozpoczęła się 04.10.2022 12:26:46.
+Kompilacja rozpoczęła się 05.10.2022 09:29:59.
 Projekt "D:\Code\store-management-system\build\CMakeFiles\3.24.2\CompilerIdC\CompilerIdC.vcxproj" w węźle 1 (domyślne elementy docelowe).
 PrepareForBuild:
   Tworzenie katalogu "Debug\".
@@ -33,7 +33,7 @@ Kompilacja powiodła się.
     Ostrzeżenia: 0
     Liczba błędów: 0
 
-Czas, który upłynął: 00:00:00.98
+Czas, który upłynął: 00:00:01.17
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -50,7 +50,7 @@ Id flags:
 The output was:
 0
 MSBuild version 17.3.1+2badb37d1 for .NET Framework
-Kompilacja rozpoczęła się 04.10.2022 12:26:47.
+Kompilacja rozpoczęła się 05.10.2022 09:30:00.
 Projekt "D:\Code\store-management-system\build\CMakeFiles\3.24.2\CompilerIdCXX\CompilerIdCXX.vcxproj" w węźle 1 (domyślne elementy docelowe).
 PrepareForBuild:
   Tworzenie katalogu "Debug\".
@@ -76,7 +76,7 @@ Kompilacja powiodła się.
     Ostrzeżenia: 0
     Liczba błędów: 0
 
-Czas, który upłynął: 00:00:00.73
+Czas, który upłynął: 00:00:00.88
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -88,24 +88,24 @@ The CXX compiler identification is MSVC, found in "D:/Code/store-management-syst
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: D:/Code/store-management-system/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_95cba.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ee217.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
   Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.33.31629 dla x64
   CMakeCCompilerABI.c
   Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_95cba.dir\Debug\\" /Fd"cmTC_95cba.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCCompilerABI.c"
-  cmTC_95cba.vcxproj -> D:\Code\store-management-system\build\CMakeFiles\CMakeTmp\Debug\cmTC_95cba.exe
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ee217.dir\Debug\\" /Fd"cmTC_ee217.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCCompilerABI.c"
+  cmTC_ee217.vcxproj -> D:\Code\store-management-system\build\CMakeFiles\CMakeTmp\Debug\cmTC_ee217.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: D:/Code/store-management-system/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3a8fc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e324d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.3.1+2badb37d1 for .NET Framework
   Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.33.31629 dla x64
   CMakeCXXCompilerABI.cpp
   Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
-  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3a8fc.dir\Debug\\" /Fd"cmTC_3a8fc.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp"
-  cmTC_3a8fc.vcxproj -> D:\Code\store-management-system\build\CMakeFiles\CMakeTmp\Debug\cmTC_3a8fc.exe
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e324d.dir\Debug\\" /Fd"cmTC_e324d.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_e324d.vcxproj -> D:\Code\store-management-system\build\CMakeFiles\CMakeTmp\Debug\cmTC_e324d.exe
 
 
 
