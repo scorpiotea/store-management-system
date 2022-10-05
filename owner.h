@@ -1,4 +1,3 @@
-#include <vector>
 #include "item.h"
 #ifndef owner_h
 #define owner_h
